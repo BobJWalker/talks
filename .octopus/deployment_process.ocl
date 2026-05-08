@@ -8,6 +8,7 @@ step "run-octopus-deploy-runbook-issue-1680" {
             Run.Runbook.Api.Key = "#{Project.Api.Key}"
             Run.Runbook.AutoApproveManualInterventions = "No"
             Run.Runbook.Base.Url = "#{Octopus.Web.ServerUri}"
+            Run.Runbook.CaCBranchName = "#{Octopus.Release.Git.BranchName}"
             Run.Runbook.CancelInSeconds = "1800"
             Run.Runbook.CustomNotes.Toggle = "False"
             Run.Runbook.DateTime = "N/A"

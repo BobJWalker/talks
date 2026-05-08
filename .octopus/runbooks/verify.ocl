@@ -34,7 +34,6 @@ process {
                     Extract = "True"
                     SelectionMode = "immediate"
                 }
-                version = "1.0.6"
             }
         }
     }

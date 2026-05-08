@@ -4,7 +4,7 @@ step "run-octopus-deploy-runbook-issue-1680" {
     action {
         properties = {
             Octopus.Action.Template.Id = "ActionTemplates-602"
-            Octopus.Action.Template.Version = "9"
+            Octopus.Action.Template.Version = "10"
             Run.Runbook.Api.Key = "#{Project.Api.Key}"
             Run.Runbook.AutoApproveManualInterventions = "No"
             Run.Runbook.Base.Url = "#{Octopus.Web.ServerUri}"
